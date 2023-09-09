@@ -29,11 +29,13 @@
 	// Ajoutez un gestionnaire d'événements pour les flèches de gauche et de droite
 	const arrowLeft = document.querySelector(".arrow_left");
 	const arrowRight = document.querySelector(".arrow_right");
+	// Event click sur flèche
 	arrowLeft.addEventListener("click", () => {
-		changeSlide(-1);
+		changeSlide(-1); // Decrement de 1
 	});
+	// Event click sur flèche
 	arrowRight.addEventListener("click", () => {
-		changeSlide(1);
+		changeSlide(1); // Increment de 1
 	});
 
 	// Fonction pour changer de  slide
