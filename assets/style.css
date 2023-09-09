@@ -245,6 +245,7 @@ header {
 }
 
 .dot {
+	cursor: pointer;
 	margin-inline: 5px;
 	width: 13px;
 	height: 13px;
